@@ -1,0 +1,14 @@
+name: CartCleaner
+main: com.github.CubieX.CartCleaner.CartCleaner
+version: 0.1a
+description: Removes Carts if player exits them while not resting on a unpowered PoweredRail. 
+
+commands:
+    cc:
+      description: Using CartCleaner
+      usage: /cc version
+
+permissions:
+    cartcleaner.admin:
+        description: Allows use of all commands
+        default: op
