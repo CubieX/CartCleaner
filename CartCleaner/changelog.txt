@@ -1,6 +1,9 @@
 Changelog for CartCleaner by CubieX
 -----------------------------------
 
+V1.0.1
+- removed unnecessary listener (only for testing needed)
+
 V1.0
 - updated for CB 1.5.1-R0.2
 

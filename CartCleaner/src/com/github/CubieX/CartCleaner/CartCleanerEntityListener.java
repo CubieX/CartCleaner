@@ -74,10 +74,4 @@ public class CartCleanerEntityListener implements Listener
          }
       }
    }
-   
-   @EventHandler(priority = EventPriority.NORMAL, ignoreCancelled = true)
-   public void onPlayerJoin(PlayerJoinEvent event)
-   {
-      if(cHandler.getConfig().getBoolean("debug")){event.getPlayer().sendMessage("Handler is working!");}
-   }
 }
